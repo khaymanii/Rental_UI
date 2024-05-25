@@ -10,7 +10,7 @@ function Navbar() {
   }
 
   return (
-    <nav className="bg-white">
+    <nav className="z-20 bg-white sticky top-0">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
@@ -22,7 +22,7 @@ function Navbar() {
           </div>
 
           {/* Desktop Navigation Links */}
-          <div className="hidden md:flex items-center  gap-6 text-sm">
+          <div className="hidden md:flex items-center gap-6 text-sm">
             <ul className="flex items-center gap-6 text-sm">
               <li>
                 <a href="#"> Home </a>
