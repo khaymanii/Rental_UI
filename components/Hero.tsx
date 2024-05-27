@@ -30,23 +30,20 @@ function Hero() {
           <p className="mt-4 font-medium sm:text-xl/relaxed text-white">
             Rent cars, Houses, and Items in Just a Few Clicks
           </p>
-          <div className="mt-8 border-none">
+          <div className="mt-8 sm:pt-4 flex flex-col sm:flex-row items-center justify-center">
             <Button
-              className="px-8  text-black bg-white hover:text-white"
+              className="w-full sm:w-auto px-8 mb-4 sm:mb-0 sm:mr-4"
               onClick={handleClick}
             >
               Places
             </Button>
             <Button
-              className="px-8 mx-4 text-black bg-white hover:text-white"
+              className="w-full sm:w-auto px-8 mb-4 sm:mb-0 sm:mr-4"
               onClick={handleClick}
             >
               Houses
             </Button>
-            <Button
-              className="px-8 text-black bg-white  hover:text-white"
-              onClick={handleClick}
-            >
+            <Button className="w-full sm:w-auto px-8" onClick={handleClick}>
               Things
             </Button>
           </div>
