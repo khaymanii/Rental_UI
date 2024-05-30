@@ -20,8 +20,8 @@ function Hero() {
         />
       </div>
       <div className="relative z-10 flex items-center justify-center h-full">
-        <div className="mx-auto max-w-xl text-center p-6 rounded-lg -mt-44">
-          <h1 className="text-6xl font-extrabold sm:text-5xl text-white">
+        <div className="mx-auto max-w-3xl text-center p-6 rounded-lg -mt-36">
+          <h1 className="text-3xl font-extrabold sm:text-5xl text-white">
             Discover Your{" "}
             <span className="font-extrabold text-green-500">
               Perfect Rental
@@ -47,7 +47,22 @@ function Hero() {
               Things
             </Button>
           </div>
-          <div className=""></div>
+          <div className="w-full h-16 mt-8 rounded-full bg-white border-none flex items-center">
+            <div className="flex items-center mx-4 space-x-2 w-full">
+              <Image
+                src="search.svg"
+                alt="search"
+                width={25}
+                height={25}
+                className=""
+              />
+              <input
+                type="text"
+                placeholder="Search for cars, houses and more..."
+                className="outline-none focus:ring-0 w-full"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
