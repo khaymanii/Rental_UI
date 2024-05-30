@@ -21,7 +21,7 @@ function Hero() {
       </div>
       <div className="relative z-10 flex items-center justify-center h-full">
         <div className="mx-auto max-w-xl text-center p-6 rounded-lg -mt-44">
-          <h1 className="text-5xl font-extrabold sm:text-5xl text-white">
+          <h1 className="text-6xl font-extrabold sm:text-5xl text-white">
             Discover Your{" "}
             <span className="font-extrabold text-green-500">
               Perfect Rental
@@ -47,6 +47,7 @@ function Hero() {
               Things
             </Button>
           </div>
+          <div className=""></div>
         </div>
       </div>
     </div>

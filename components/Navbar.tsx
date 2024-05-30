@@ -22,32 +22,40 @@ function Navbar() {
           </div>
 
           {/* Desktop Navigation Links */}
-          <div className="hidden md:flex items-center gap-6 text-sm">
+          <div className="hidden md:flex items-center justify-center ml-52 flex-1 gap-6 text-sm">
             <ul className="flex items-center gap-6 text-sm">
               <li>
                 <a href="#"> Home </a>
               </li>
-
               <li>
                 <a href="#"> Rentals </a>
               </li>
-
               <li>
                 <a href="#"> Categories </a>
               </li>
-
               <li>
                 <a href="#"> About Us </a>
               </li>
-
               <li>
                 <a href="#"> Contact </a>
               </li>
-
               <li>
                 <a href="#"> Blog </a>
               </li>
             </ul>
+          </div>
+
+          {/* Other Links and Button */}
+          <div className="hidden md:flex items-center gap-4 ml-6">
+            <a
+              className="px-5 py-2.5 font-medium text-green-500 hover:text-green-700"
+              href="#"
+            >
+              Login
+            </a>
+            <Button className="px-8" onClick={handleClick}>
+              Post Listing
+            </Button>
           </div>
 
           {/* Mobile Navigation */}
@@ -112,23 +120,6 @@ function Navbar() {
                 </div>
               </div>
             )}
-          </div>
-
-          {/* Other Links */}
-          <div className="hidden md:flex items-center gap-4">
-            <div className="sm:flex sm:gap-4">
-              <a
-                className="px-5 py-2.5 font-medium text-green-500 hover:text-green-700"
-                href="#"
-              >
-                Login
-              </a>
-              <div className="hidden sm:flex">
-                <Button className="px-8" onClick={handleClick}>
-                  Post Listing
-                </Button>
-              </div>
-            </div>
           </div>
         </div>
       </div>
