@@ -28,7 +28,7 @@ function Hero() {
             </span>
           </h1>
           <p className="mt-4 font-medium sm:text-xl/relaxed text-white">
-            Rent cars, Houses, and Items in Just a Few Clicks
+            Rent Cars, Houses, and Items in Just a Few Clicks
           </p>
           <div className="mt-8 sm:pt-4 flex flex-col sm:flex-row items-center justify-center">
             <Button
