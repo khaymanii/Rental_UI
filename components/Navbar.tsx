@@ -22,7 +22,7 @@ function Navbar() {
           </div>
 
           {/* Desktop Navigation Links */}
-          <div className="hidden md:flex items-center justify-center ml-52 flex-1 gap-6 text-sm">
+          <div className="hidden md:flex items-center justify-center ml-44 flex-1 gap-6 text-sm">
             <ul className="flex items-center gap-6 text-sm">
               <li>
                 <a href="#"> Home </a>
