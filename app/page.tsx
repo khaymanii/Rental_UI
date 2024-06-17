@@ -2,6 +2,7 @@
 "use client";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import BrowseCategories from "@/components/BrowseCategories";
 
 export default function Home() {
   const handleClick = () => {
@@ -11,6 +12,7 @@ export default function Home() {
     <div className="">
       <Navbar />
       <Hero />
+      <BrowseCategories />
     </div>
   );
 }
