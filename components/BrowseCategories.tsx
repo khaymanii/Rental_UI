@@ -7,31 +7,31 @@ function BrowseCategories() {
         Browse From Top Categories
       </h1>
       <div className="flex items-center justify-around text-center">
-        <div className="px-2 py-2 w-50 bg-white outline text-black rounded-full flex items-center justify-around">
+        <div className="px-2 py-2 w-50 bg-white border-2 border-gray-500 rounded-full  text-black flex items-center justify-around">
           <span className="w-8 h-8 mx-2 bg-red-300 rounded-full items-center justify-center flex">
             2
           </span>
           <p className="mr-4">Holiday Rentals</p>
         </div>
-        <div className="px-2 py-2 w-50 bg-white outline text-black rounded-full flex items-center justify-around">
+        <div className="px-2 py-2 w-50 bg-white  text-black border-2 border-gray-500 rounded-full flex items-center justify-around">
           <span className="w-8 h-8 mx-2 bg-green-300 rounded-full items-center justify-center flex">
             2
           </span>
           <p className="mr-4">Residential Spaces</p>
         </div>{" "}
-        <div className="px-2 py-2 w-50 outline bg-white text-black rounded-full flex items-center justify-around">
+        <div className="px-2 py-2 w-50  bg-white text-black border-2 border-gray-500 rounded-full flex items-center justify-around">
           <span className="w-8 h-8 mx-2 bg-purple-300 rounded-full items-center justify-center flex">
             2
           </span>
           <p className="mr-4">Event Spaces</p>
         </div>{" "}
-        <div className="px-2 py-2 w-50 bg-white outline text-black rounded-full flex items-center justify-around">
+        <div className="px-2 py-2 w-50 bg-white  text-black border-2 border-gray-500 rounded-full flex items-center justify-around">
           <span className="w-8 h-8 mx-2 bg-blue-300 rounded-full items-center justify-center flex">
             2
           </span>
           <p className="mr-4">Commercial Properties</p>
         </div>
-        <div className="px-2 py-2 w-50 bg-white outline text-black rounded-full flex items-center justify-around">
+        <div className="px-2 py-2 w-50 bg-white  text-black border-2 border-gray-500 rounded-full flex items-center justify-around">
           <span className="w-8 h-8 mx-2 bg-orange-300 rounded-full items-center justify-center flex">
             2
           </span>
