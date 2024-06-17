@@ -7,7 +7,7 @@ function BrowseCategories() {
         Browse From Top Categories
       </h1>
       <div className="flex items-center justify-around text-center">
-        <div className="px-2 py-2 w-50 bg-white outline-width-1 text-black rounded-full flex items-center justify-around">
+        <div className="px-2 py-2 w-50 bg-white outline text-black rounded-full flex items-center justify-around">
           <span className="w-8 h-8 mx-2 bg-red-300 rounded-full items-center justify-center flex">
             2
           </span>
