@@ -14,7 +14,7 @@ function Navbar() {
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <div className="md:flex md:items-center md:gap-12">
+          <div className="flex items-center gap-4">
             <a className="block" href="#">
               <span className="sr-only">Home</span>
               <Image src="/logo.svg" alt="logo" width={35} height={35} />
@@ -22,7 +22,7 @@ function Navbar() {
           </div>
 
           {/* Desktop Navigation Links */}
-          <div className="hidden md:flex items-center justify-center ml-44 flex-1 gap-6 text-sm">
+          <div className="hidden md:flex items-center justify-center flex-1 gap-6 text-sm">
             <ul className="flex items-center gap-6 text-sm">
               <li>
                 <a href="#"> Home </a>
@@ -46,7 +46,7 @@ function Navbar() {
           </div>
 
           {/* Other Links and Button */}
-          <div className="hidden md:flex items-center gap-4 ml-6">
+          <div className="hidden md:flex items-center gap-4">
             <a
               className="px-5 py-2.5 font-medium text-green-500 hover:text-green-700"
               href="#"
@@ -84,9 +84,9 @@ function Navbar() {
               </svg>
             </button>
             {mobileMenuOpen && (
-              <div className="absolute top-16 right-4 bg-green-50 shadow-lg rounded-lg py-2 px-4 text-sm">
-                <ul className="flex flex-col items-center gap-6 py-2 border-b-2">
-                  <li className="">
+              <div className="absolute top-16 right-0 left-0 bg-white shadow-lg rounded-lg py-4 px-4 text-sm">
+                <ul className="flex flex-col items-center gap-4 py-2 border-b-2">
+                  <li>
                     <a href="#"> Home </a>
                   </li>
                   <li>

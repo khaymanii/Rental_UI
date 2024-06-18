@@ -15,19 +15,29 @@ function BrowseCategories() {
   }
 
   return (
-    <div className="mx-auto max-w-7xl my-10">
-      <h1 className="sm:text-4xl text-2xl font-bold mb-4 text-center">
+    <div className="mx-auto max-w-7xl my-10 px-4">
+      <h1 className="sm:text-5xl text-2xl font-bold mb-4 text-center">
         Browse From Top Categories
       </h1>
-      <div className="flex flex-wrap items-center justify-center sm:justify-around mt-4 sm:pt-4">
-        {categories.map((category) => (
-          <Button
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4 sm:pt-4">
+        {categories.map((category, index) => (
+          <div
             key={category.name}
-            className={`w-full sm:w-auto ${category.padding} mb-4 sm:mb-0 sm:mr-4 py-2 sm:py-4`}
-            onClick={handleClick}
+            className={`w-full ${
+              index === 3
+                ? "lg:col-start-1"
+                : index === 4
+                ? "lg:col-start-3"
+                : ""
+            }`}
           >
-            {category.name}
-          </Button>
+            <Button
+              className={`w-full ${category.padding} py-2 sm:py-4`}
+              onClick={handleClick}
+            >
+              {category.name}
+            </Button>
+          </div>
         ))}
       </div>
     </div>
