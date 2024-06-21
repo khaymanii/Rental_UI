@@ -3,6 +3,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import BrowseCategories from "@/components/BrowseCategories";
+import FeatureListings from "@/components/FeatureListings";
 
 export default function Home() {
   const handleClick = () => {
@@ -13,6 +14,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <BrowseCategories />
+      <FeatureListings />
     </div>
   );
 }
