@@ -17,7 +17,7 @@ function Banner() {
         </div>
         <div className="w-full py-4 md:py-8 rounded-lg bg-black text-center text-white md:mx-2">
           <h1 className="text-xl md:text-3xl">50+</h1>
-          <p className="text-sm">Articles in the Blog</p>
+          <p className="text-sm">Blog Articles</p>
         </div>
       </div>
     </div>
