@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import BrowseCategories from "@/components/BrowseCategories";
 import FeatureListings from "@/components/FeatureListings";
 import Banner from "@/components/Banner";
+import FeatureLocation from "@/components/FeatureLocations";
 
 export default function Home() {
   const handleClick = () => {
@@ -17,6 +18,7 @@ export default function Home() {
       <BrowseCategories />
       <FeatureListings />
       <Banner />
+      <FeatureLocation />
     </div>
   );
 }

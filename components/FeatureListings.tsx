@@ -83,7 +83,7 @@ function FeatureListings() {
   return (
     <div className="mx-auto max-w-7xl my-10 px-4">
       <h1 className="text-2xl sm:text-5xl font-bold mb-8 text-center">
-        Feature Listings
+        Featured Listings
       </h1>
       <div className="flex flex-wrap items-center justify-between mt-4 cursor-pointer">
         {buttons.map((label, index) => (
