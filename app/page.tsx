@@ -6,6 +6,7 @@ import BrowseCategories from "@/components/BrowseCategories";
 import FeatureListings from "@/components/FeatureListings";
 import Banner from "@/components/Banner";
 import FeatureLocation from "@/components/FeatureLocations";
+import ImportantArticle from "@/components/ImportantArticle";
 
 export default function Home() {
   const handleClick = () => {
@@ -19,6 +20,7 @@ export default function Home() {
       <FeatureListings />
       <Banner />
       <FeatureLocation />
+      <ImportantArticle />
     </div>
   );
 }
