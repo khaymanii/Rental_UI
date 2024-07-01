@@ -45,15 +45,13 @@ function ImportantArticle() {
               />
             </div>
             <div className="w-full sm:flex-1">
-              <p className="text-red-500 font-semibold pb-2">
-                February 4, 2023
-              </p>
-              <h1 className="font-bold text-xl pb-4">
-                Top Tip for Finding the Perfect Rental
+              <p className="text-red-500 font-semibold pb-2">May 7, 2023</p>
+              <h1 className="font-bold text-xl pb-2">
+                Car Rental Hacks for Smooth Journey
               </h1>
               <p className="text-gray-500 font-light text-base tracking-wider">
-                Discover expert advice on how to find the ideal rental property
-                that meets your needs and budget.
+                Loan insider tips for getting the best deals and making the most
+                of your rental car experience.
               </p>
             </div>
           </div>
@@ -70,15 +68,11 @@ function ImportantArticle() {
               />
             </div>
             <div className="w-full sm:flex-1">
-              <p className="text-red-500 font-semibold pb-2">
-                February 4, 2023
-              </p>
-              <h1 className="font-bold text-xl pb-4">
-                Top Tip for Finding the Perfect Rental
-              </h1>
+              <p className="text-red-500 font-semibold pb-2">January 2, 2023</p>
+              <h1 className="font-bold text-xl pb-2">Maximizing Returns</h1>
               <p className="text-gray-500 font-light text-base tracking-wider">
-                Discover expert advice on how to find the ideal rental property
-                that meets your needs and budget.
+                Loan strategies to optimize the return on investment for your
+                rental property.
               </p>
             </div>
           </div>
@@ -95,15 +89,13 @@ function ImportantArticle() {
               />
             </div>
             <div className="w-full sm:flex-1">
-              <p className="text-red-500 font-semibold pb-2">
-                February 4, 2023
-              </p>
-              <h1 className="font-bold text-xl pb-4">
-                Top Tip for Finding the Perfect Rental
+              <p className="text-red-500 font-semibold pb-2">April 7, 2023</p>
+              <h1 className="font-bold text-xl pb-2">
+                Navigating the Rental Market
               </h1>
               <p className="text-gray-500 font-light text-base tracking-wider">
-                Discover expert advice on how to find the ideal rental property
-                that meets your needs and budget.
+                Explore key considerations and useful tips for individuals new
+                to the rental market.
               </p>
             </div>
           </div>
