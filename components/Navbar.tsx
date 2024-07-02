@@ -14,7 +14,7 @@ function Navbar() {
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center gap-4">
+          <div className="flex  items-center gap-4">
             <a className="block" href="#">
               <span className="sr-only">Home</span>
               <Image src="/logo.svg" alt="logo" width={40} height={40} />
