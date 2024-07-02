@@ -76,7 +76,7 @@ function ImportantArticle() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col sm:flex-row">
+          <div className="flex flex-col sm:flex-row mb-5">
             <div className="w-full sm:w-[200px] sm:mr-4 mb-4 sm:mb-0">
               <Image
                 src={Article4}
@@ -96,6 +96,29 @@ function ImportantArticle() {
               <p className="text-gray-500 font-light text-base tracking-wider">
                 Explore key considerations and useful tips for individuals new
                 to the rental market.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col sm:flex-row mb-5">
+            <div className="w-full sm:w-[200px] sm:mr-4 mb-4 sm:mb-0">
+              <Image
+                src={Article3}
+                alt="article3 image"
+                width={300}
+                height={200}
+                objectFit="cover"
+                layout="responsive"
+                className="w-full h-auto"
+              />
+            </div>
+            <div className="w-full sm:flex-1">
+              <p className="text-red-500 font-semibold pb-2">July 7, 2023</p>
+              <h1 className="font-bold text-xl pb-2">
+                Managing Your Rental Items
+              </h1>
+              <p className="text-gray-500 font-light text-base tracking-wider">
+                Get valuable insights on how to effectively manage and maintain
+                your remeditems.
               </p>
             </div>
           </div>

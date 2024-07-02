@@ -7,6 +7,8 @@ import FeatureListings from "@/components/FeatureListings";
 import Banner from "@/components/Banner";
 import FeatureLocation from "@/components/FeatureLocations";
 import ImportantArticle from "@/components/ImportantArticle";
+import Footer from "@/components/Footer";
+import Copyright from "@/components/Copyright";
 
 export default function Home() {
   const handleClick = () => {
@@ -21,6 +23,8 @@ export default function Home() {
       <Banner />
       <FeatureLocation />
       <ImportantArticle />
+      <Footer />
+      <Copyright />
     </div>
   );
 }
